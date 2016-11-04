@@ -1,0 +1,1161 @@
+/* stylesheet_index.php - v1.0A - ©2012 Olger Alphenaar */
+/* Samenvatting: Dit is de stylesheet voor alle static content pagina's zoals showprofile, editprofile, displayquestions, qa en faq.php. */
+
+
+/* Begin CSS */
+
+
+
+
+
+/* ---- START HEADER - This contains all the elements within the header ---- */
+
+/* main - This is the actual body of the website, which contains all other elements */
+#main {
+position:absolute;
+left:50%;
+margin-left:-480px;
+width:960px;
+border:1px #c3c3c3 solid;
+background-color:#fff;
+overflow: hidden;
+}
+
+/* content - The body which contains all the variable information like the tagcloud and online members */
+#content {
+float: left;
+margin-top:4px;
+margin-left:5px;
+text-align:left;
+padding-top:10px;
+padding-left:10px;
+padding-bottom:10px;
+width:663px;
+min-height: 1015px;
+border:1px #c3c3c3 solid;
+overflow: hidden;
+}
+
+
+/* search - The body which contains the search bar */
+#search {
+position:absolute;
+margin-top:4px;
+margin-left:684px;
+width:270px;
+height:100px;
+border:1px #c3c3c3 solid;
+}
+
+/* zoekBalk - The placement of the Search Bar within the Search section */
+#zoekBalk {
+margin-top:11px;
+width:130px;
+}
+
+/* hotVragen - This is the body of the 'Meest populaire vragen' list' */
+#hotVragen {
+position: absolute;
+margin-top: 220px;
+padding: 10px;
+width: 630px;
+height: 183px;
+text-align: center;
+border:1px #c3c3c3 solid;
+}
+
+/* recent - The body for QBA Nu - aka the most recent questions */
+#recent {
+position:absolute;
+margin-top:110px;
+margin-left:684px;
+width:270px;
+height:295px;
+border:1px #c3c3c3 solid;
+text-overflow: ellipsis;
+}
+
+/* contributors - The body for the Top Contributors list */
+#contributors {
+position:absolute;
+margin-top:759px;
+margin-left:684px;
+width:270px;
+height:280px;
+border:1px #c3c3c3 solid;
+}
+
+#contributors td {
+border-bottom: 1px solid #
+}
+
+/* footer - The styling of the footer of the website */
+#footer {
+float: left;
+margin-top: 10px;
+margin-left: 5px;
+height: 27px;
+width: 950;
+margin-bottom: 10px;
+border:1px #c3c3c3 solid;
+background-color:#fff;
+}
+
+/* footertext - Styling of the text within the footer*/
+#footertext {
+margin-top: 6px;
+font-family: Verdana;
+font-size: 12px;
+color: a4a4a4;
+}
+
+
+
+/* ---- START NAVIGATIE MENU ---- */
+
+/* navmenu - The entire navigation area */
+#navmenu {
+z-index:10;
+position:relative;
+margin-top:0;
+width:960px;
+height:40px;
+background-color:#F0F0F0;
+}
+
+/* navtext - The placement of the navigation buttons */
+#navtext {
+position:absolute;
+margin-top:0px;
+margin-left:0px;
+font-family:Verdana;
+font-size:12px;
+font-weight:700;
+color:#fff;
+}
+
+/* navlogin - The div that contains the login form */
+
+#navlogin {
+z-index: -5;
+position: absolute;
+width: 960px;
+height: 40px;
+margin-top: 0;
+margin-left: 0;
+font-family: Verdana;
+font-size: 12px;
+border-bottom: 1px solid e4e4e4;
+color: white;
+}
+
+/* loginknop - Placement of the login buttons*/
+
+#loginknop {
+margin-left:884px;
+}
+
+/* mailField - Placement of the e-mail field within the login form */
+
+#mailField {
+position:absolute;
+margin-top:0px;
+margin-left:366px;
+width:115px;
+}
+
+/*passField - Placement of the password field within the login form */
+
+#passField {
+position:absolute;
+margin-top:0px;
+margin-left:489px;
+width:115px;
+}
+
+/* aanwezigText - Placement and styling of the text that displays 'Aanwezig bij OBA?' */
+#aanwezigText {
+font-family:Verdana;
+font-size:12px;
+color: #6D6D6D;
+position:absolute;
+margin-top: 4px;
+margin-left:596px;
+width:145px;
+text-align: right;
+}
+
+/* logintable - The table that contains the login form */
+#logintable {
+margin-top: -3px;
+width: 960px;
+height: 40px;
+}
+
+#login {
+}
+
+/* greetingText - The location of the text that displays 'Welkom bij QBA <naam>' */
+#greetingText {
+font-family:Verdana;
+font-size:14px;
+position:absolute;
+margin-top:12px;
+margin-left:505px;
+text-align:center;
+width:300px;
+color: #6D6D6D;
+}
+
+
+/* ---- EINDE NAVIGATIE MENU ---- */
+
+/* ledenAanwezig - Placement of the Aanwezige Leden */
+#ledenAanwezig {
+position: absolute;
+margin-top: 10px;
+padding: 10px;
+width: 630px;
+height: 170px;
+text-align: center;
+border:1px #c3c3c3 solid;
+}
+
+/* ledenAanwezigTitel - Placement of the title text within Aanwezige Leden */
+#ledenAanwezigTitel {
+position: absolute;
+text-align: left;
+width: 334px;
+height: 50px;
+margin-left: 265px;
+}
+
+/* ledenAanwezigLocatie - Placement of the Address of the OBA within Aanwezige Leden */
+#ledenAanwezigLocatie {
+position: absolute;
+text-align: left;
+width: 334px;
+height: 50px;
+margin-left: 265px;
+margin-top: 27px;
+}
+
+/* loginSubmit - */
+#loginSubmit {
+margin-top:7px;
+}
+
+/* aanwezigCheck - Placement of the Aanwezig checkbox */
+#aanwezigCheck {
+position: absolute;
+margin-left: 600px;
+margin-top: 9px;
+}
+
+
+/* ---- START TWITTERFEED ---- */
+
+/* twitterfeed - The body that contains the Twitter Feed */
+#twitterfeed {
+position:absolute;
+margin-top:411px;
+margin-left:684px;
+width:270px;
+height:342px;
+border:1px #4bb5d8 solid;
+background-color:#7bdfe4;
+overflow:auto;
+}
+
+/* tweet - Placement and styling of the Tweets within the Twitter Feed */
+#tweet {
+color:#fff;
+font-family:Verdana;
+font-size:12px;
+text-align:left;
+margin-right: 5px;
+height:300px;
+margin-right:1px;
+word-wrap:break-word;
+}
+
+/* tweet li - Styling of the List element used within the Twitter Script */
+#tweet li{
+list-style-type:none;
+margin-left:-21px;
+margin-right:16px;
+margin-top: -13px;
+}
+
+/* titelTwitter - Styling of the Twitterfeed title */
+#titelTwitter {
+font-family:Verdana;
+font-size:28px;
+color:#fff;
+margin-top:10px;
+}
+
+/* ---- EINDE TWITTERFEED ---- */
+
+
+
+
+
+
+
+
+/* welAanwezig - Coloration of the text of a present member */
+#welAanwezig {
+color: #2FBA00;
+}
+
+/* nietAanwezg - Coloration of the text of a non-present member */
+#nietAanwezig {
+color: #e40000;
+}
+
+/* ---- BEGIN ALGEMENE STYLING VAN TEXT ---- */
+
+/* p - Used for certain text */
+#p {
+margin-left:10px;
+}
+
+/* linktext - General styling of Links */
+#linktext {
+font-family:Verdana;
+font-size:12px;
+}
+
+/* text - Styling of 16pt text */
+#text {
+font-family:Verdana;
+font-size:16px;
+color:#000;
+}
+
+/* textklein - Styling of (Regular) 12pt text */
+#textklein {
+font-family:Verdana;
+font-size:12px;
+color:#000;
+}
+
+/* titel - Styling of 20pt text for titles */
+#titel {
+font-family:Verdana;
+font-size:20px;
+color:#e40000;
+}
+
+/* titelgroot - Styling of 28pt text for  large titles */
+#titelgroot {
+font-family:Verdana;
+font-size:28px;
+color:#e40000;
+margin-top:10px;
+}
+
+
+/* - Styling of different links and linkhovers */
+
+a,a:visited,a:hover,a:active {
+color:#000000;
+text-decoration:none;
+}
+
+a.twitter,.twitter a,a.twitter:hover,.twitter a:hover {
+text-decoration:none;
+color:#00aced;
+}
+
+a.greetingText, .greetingText a{
+text-decoration: none;
+color:#e40000;
+}
+
+a.greetingText:hover, .greetingText a:hover {
+text-decoration: none;
+color: #6D6D6D;;
+}
+
+a.footertext, .footertext a{
+color:#a4a4a4;
+}
+
+a.footertext:hover, .footertext a:hover{
+color:#e40000;
+}
+
+a.profileLink, .profileLink a{
+text-decoration: none;
+color:#4d4d4d;
+font-size:12px;
+}
+
+a.profileLink:hover, .profileLink a:hover {
+text-decoration: underline;
+color:#4d4d4d;
+}
+
+a.profileLink2, .profileLink2 a{
+text-decoration: none;
+color:#f7f7f7;
+font-size:12px;
+}
+
+a.profileLink2:hover, .profileLink2 a:hover {
+text-decoration: underline;
+color:#f7f7f7;
+}
+
+a.questionLink, .questionLink a{
+text-decoration: none;
+color:#4d4d4d;
+font-size:12px;
+}
+
+a.questionLink:hover, .questionLink a:hover {
+color:#2e2e2e;
+}
+
+/* ---- TABLES - Styling of the different tables used ---- */
+
+/* registratieTable - The table that contains the registration form */
+#registratieTable {
+height:30px;
+}
+
+#registratieTable td {
+height:30px;
+width:150px;
+}
+
+/* .hideextra - Serves to cut off text that would otherwise fall outside of a div. Shortens it to '...' */
+.hideextra {
+ white-space: nowrap; overflow: hidden; text-overflow:ellipsis;
+}
+
+/* qbaNuTable - The table that contains QBA Nu information */
+#qbaNuTable {
+font-family:Verdana;
+font-size:12px;
+color:#000000;
+text-align: left;
+float: left;
+margin-left: 6px;
+overflow: hidden;
+white-space: nowrap;
+}
+
+#qbaNuTable th {
+color:#e40000;
+}
+
+#qbaNuTable td {
+border-bottom: 1px solid #d5d5d5; 
+}
+
+/*-LEDEN AANWEZIG TABLE - The table that contains the present members */
+#ledenAanwezigTable{
+font-family:Verdana;
+font-size: 12px;
+position: absolute;
+width: 366px;
+height: 66px;
+margin-left: 262px;
+margin-top: 82px;
+}
+
+#ledenAanwezigTable tr{
+height: 20px;
+}
+
+#ledenAanwezigTable td{
+height: 20px;
+}
+
+/*-HOT VRAGEN TABEL - The table that contains the most popular questions */
+#hotVragenTable {
+font-family: Verdana;
+font-size: 12px;
+position: absolute;
+width: 629px;
+height: 151px;
+border-collapse: collapse;
+
+}
+
+#hotVragenTable td {
+width: 300px;
+border-collapse: collapse;
+border-bottom: 1px solid #c3c3c3;}
+
+/*-ANSWER TABLE - Contains all Answers*/
+#answertable {
+font-family:Verdana;
+width:657px;
+border-collapse:collapse;
+}
+
+#answertable th {
+font-size:12px;
+color: #4d4d4d;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background: -webkit-gradient(linear, left center, right center, from(#e4e4e4), to(#ffffff));
+background: -moz-linear-gradient(left center,  #e4e4e4,  #ffffff);
+}
+
+#answertable td{
+font-size:12px;
+border:0px solid #c3c3c3;
+padding:3px 7px 2px;
+}
+
+/*-CORRECT ANSWER TABLE - Contains the correct answer*/
+#correctAnswertable {
+font-family:Verdana;
+width:657px;
+border-collapse:collapse;
+}
+
+#correctAnswertable th {
+font-size:12px;
+color: #4d4d4d;
+text-align:left;
+padding:5px;
+padding-bottom:4px;
+background: -webkit-gradient(linear, left center, right center, from(#e4e4e4), to(#ffffff));
+background: -moz-linear-gradient(left center,  #e4e4e4,  #ffffff);
+}
+
+#correctAnswertable th.alt{
+color: #4d4d4d;
+background: -webkit-gradient(linear, left center, right center, from(#a4dfa9), to(#ffffff));
+background: -moz-linear-gradient(left center,  #a4dfa9,  #ffffff);
+}
+
+#correctAnswertable th.alttitle {
+color: #4d4d4d;
+background: none;
+background-color: #fffff;
+padding-left: 15px;
+}
+
+#correctAnswertable td{
+font-size:12px;
+border:0px solid #c3c3c3;
+background: -webkit-gradient(linear, left center, right center, from(#dbf5dd), to(#ffffff));
+background: -moz-linear-gradient(left center,  #dbf5dd,  #ffffff);
+padding:3px 7px 2px;
+}
+
+#correctAnswertable td.white{
+font-size:12px;
+border:0px solid #c3c3c3;
+background: #ffffff;
+padding:3px 7px 2px;
+}
+
+#correctAnswertable td.whitecenter{
+text-align:center;
+font-size:12px;
+border:0px solid #c3c3c3;
+background: #ffffff;
+padding:3px 7px 2px;
+}
+
+
+
+/*-QUESTION TABLE - Contains all questions*/
+#questiontable{
+font-family:Verdana;
+width:657px;
+border-collapse:collapse;
+}
+
+
+#questiontable th {
+font-size:12px;
+color: #f7f7f7;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+padding-left: 5px;
+background: -webkit-gradient(linear, left center, right center, from(#e40000), to(#ffffff));
+background: -moz-linear-gradient(left center,  #e40000,  #ffffff);
+}
+
+#questiontable th.questionTitle {
+font-size:16px;
+color:#4d4d4d;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+padding-left: 5px;
+background: none;
+background-color: #ffffff;
+border-bottom: 1px solid #c3c3c3;
+}
+
+
+#questiontable td {
+font-size:12px;
+border:0px solid #c3c3c3;
+padding:3px 7px 2px;
+}
+
+/*-QUESTIONLIST TABLE - Contains all questions in 'Browse Vragen'*/
+#questionlisttable {
+font-family:Verdana;
+width:657px;
+border-collapse: collapse;
+}
+
+#questionlisttable td {
+font-size:12px;
+padding:5px;
+border-color: #cccccc;
+border-width: 0 0 1px 0;
+border-style: solid; 
+}
+
+#questionlisttable th.title {
+font-size:16px;
+color:#f7f7f7;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background: -webkit-gradient(linear, left center, right center, from(#e40000), to(#ffffff));
+background: -moz-linear-gradient(left center,  #e40000,  #ffffff);
+}
+
+#questionlisttable th {
+font-size:12px;
+color:#bbbbbb;
+text-align:left;
+padding: 5px;
+
+}
+
+#questionlisttable tr:hover td   {
+background-color: #e7e7e7;
+}
+
+#questionlisttable tr.header {
+font-size:12px;
+color:#f7f7f7;
+background:#efefef;
+text-align:left;
+padding: 10px;
+}
+
+/* Contains all Top Contributors */
+#contributorTable {
+font-family:Verdana;
+font-size:12px;
+color:#000000;
+text-align: left;
+float: left;
+margin-left: 11px;
+margin-top: -14px;
+}
+
+#contributorTable td {
+border-bottom: 1px solid #d5d5d5; 
+}
+
+#contributorTable th {
+color: #e40000;
+}
+
+
+/* SSDM - Used for styling of the navigation buttons */
+#sddm li a {
+display:block;
+margin-top:0px;
+width:117px;
+height:20px;
+background:#e40000;
+color:#FFF;
+text-align:center;
+text-decoration:none;
+padding:11px 1px;
+}
+
+#sddm div {
+position:absolute;
+visibility:hidden;
+background:#e40000;
+border:0px solid #aaa;
+padding:0px;
+text-align: center;
+}
+
+#sddm div a {
+position:relative;
+display:block;
+width:130px;
+height:20px;
+white-space:nowrap;
+text-align:left;
+text-decoration:none;
+background:#e40000;
+color:#f1f1f1;
+font:11px verdana,calibri;
+padding:4px 10px;
+}
+
+#sddm div a:hover {
+background:#fff;
+color:red;
+}
+
+#sddm2 li a {
+display:block;
+width:100px;
+height:20px;
+background:#e40000;
+color:#fff;
+text-align:center;
+text-decoration:none;
+margin:0;
+padding:10px 0;
+}
+
+#sddm2 div {
+position:absolute;
+visibility:hidden;
+background:#e40000;
+border:0 solid #aaa;
+margin:50px 0 0 -26px;
+padding:0;
+}
+
+#sddm2 div a {
+position:relative;
+display:block;
+width:100px;
+height:20px;
+white-space:nowrap;
+text-align:left;
+left: 0px;
+text-decoration:none;
+background:#e40000;
+color:#fff;
+font:13px verdana,calibri;
+padding:5px;
+}
+
+#sddm2 div a:hover {
+background:#e40000;
+color:FFFFFF;
+}
+
+#sddm,#sddm2 {
+z-index:2;
+margin:0;
+padding:0;
+}
+
+#sddm li,#sddm2 li {
+list-style:none;
+float:left;
+font:bold 13px verdana,calibri;
+margin:0;
+padding:0;
+}
+
+#sddm li a:hover,#sddm2 li a:hover {
+background:#FF4045;
+}
+
+          label {
+    display: inline;
+}
+
+/* ---- TAGCLOUD ---- General styling of the Tag Cloud */
+#tagcloud {
+display: inline-block;
+width:628px;
+height:190px;
+background:#fff;
+color:#06F;
+border:0px solid #e40000;
+text-align:center;
+-moz-border-radius:1px;
+-webkit-border-radius:1px;
+border-radius:5px;
+font-family:Verdana;
+padding:10px;
+word-wrap: break-word;
+}
+
+#tagcloud a:link,#tagcloud a:visited {
+text-decoration:none;
+color:#333;
+}
+
+#tagcloud a:hover {
+color:#e40000;
+}
+
+#tagcloud span {
+word-break: normal;
+overflow:hidden;
+padding:3px;
+}
+
+#tagcloud .smallest {
+font-size:10px;
+}
+
+#tagcloud .small {
+font-size:15px;
+}
+
+#tagcloud .medium {
+font-size:20px;
+}
+
+#tagcloud .large {
+font-size:25px;
+}
+
+#tagcloud .largest {
+font-size:30px;
+}
+
+
+/* ---- EINDE TAGCLOUD ---- */
+
+
+/* CHECKBOX STYLING - Styling of the Checkbox used for Aanwezig? */
+ 
+.regular-checkbox {
+    display: none;
+}
+ 
+.regular-checkbox + label {
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 753px;
+    margin-top: 1px;
+}
+ 
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+ 
+.regular-checkbox:checked + label {
+    background-color: #ffffff;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+ 
+.regular-checkbox:checked + label:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    color: #e40000;
+}
+ 
+/* STYLING OF SEVERAL BUTTONS */ 
+
+/* button is the Search Button */
+ .button {
+-webkit-appearance: none;
+-moz-box-shadow:inset 0 1px 0 0 #ff2626;
+-webkit-box-shadow:inset 0 1px 0 0 #ff2626;
+box-shadow:inset 0 1px 0 0 #ff2626;
+background:0;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa6767',endColorstr='#e00000');
+background-color:#fa6767;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+border:1px solid #5c5c5c;
+display:inline-block;
+color:#fff;
+font-family:arial;
+font-size:12px;
+font-weight:700;
+text-decoration:none;
+text-shadow:1px 1px 0 #5c5c5c;
+padding:4px 16px;
+}
+
+.button:hover {
+background:0;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e00000',endColorstr='#fa6767');
+background-color:#e00000;
+}
+
+.button:active {
+position:relative;
+top:1px;
+}
+
+/* button 2 is the 'Login' button */
+.button2 {
+position:absolute;
+margin-top:-09px;
+margin-left:-97px;
+width:85px;
+height:40px;
+background-color:#e40000;
+border:0;
+display:block;
+color:#fff;
+font:bold 13px verdana,calibri;
+font-size:12px;
+padding:0;
+}
+
+.button2:hover {
+background-color:#FF4045;
+}
+
+/* button 3 is the 'Registreer' button */
+.button3 {
+position:absolute;
+margin-top:-25px;
+margin-left:-12px;
+width:85px;
+height:40px;
+background-color:#e40000;
+border:0;
+display:block;
+color:#fff;
+font:bold 13px verdana,calibri;
+font-size:12px;
+padding:0;
+}
+
+.button3:hover {
+background-color:#FF4045;
+}
+
+/* button 4 is the 'Uitlog' button */
+.button4 {
+-webkit-appearance: none;
+position:absolute;
+margin-top:0px;
+margin-left:-9px;
+width:85px;
+height:40px;
+background-color:#e40000;
+border:0;
+display:block;
+color:#fff;
+font:bold 13px verdana,calibri;
+font-size:12px;
+padding:0;
+}
+
+.button4:hover {
+background-color:#FF4045;
+}
+
+/* buttonGoedAntwoord is the button used to choose the right answer */
+
+.buttonGoedAntwoord {
+background-color:#ffffff;
+border:0px solid;
+display:inline-block;
+color:#4d4d4d;
+font-family:arial;
+font-size:12px;
+font-weight:700;
+text-decoration:none;
+padding:2px 2px;
+}
+
+.buttonGoedAntwoord:hover {
+background-color:#a4dfa9;
+}
+
+/* ETC. */
+
+#wrapper {
+min-height:100%;
+position:relative;
+}
+
+#qbanu {
+position:left;
+}
+
+
+#vraagimg {
+position:left;
+margin-left:-560px;
+}
+
+#antwoordimg {
+position:left;
+margin-left:-450px;
+}
+
+#header,#center {
+position:center;
+}
+
+#vraag,#tags {
+margin-left:3px;
+width:400px;
+}
+
+
+
+/* general */ 
+* {
+margin: 0px;
+padding: 0px;
+}
+
+/*bg image*/
+#background {
+width: 100%;
+height: 100%;
+background-position: left top;
+position: absolute;
+opacity: 0.7;
+filter: alpha(opacity=70);
+z-index: -1;
+}
+
+/* fonts and formatting */
+h1 {
+font-family: Verdana, Calibri;
+font-size: 16px;
+color: #ee0000;
+text-align: center;
+}
+h2 {
+font-family: Verdana, Calibri;
+font-size: 12px;
+color: #000000;
+text-align: left;
+//margin-top: 8px;
+margin-left: 2%;
+margin-right: 2%;
+border: 1px #c3c3c3 solid;
+}
+h3 {
+font-family: Verdana, Calibri;
+font-size: 10px;
+color: #AAAAAA;
+text-align: left;
+}
+h4 {
+font-family: Verdana, Calibri;
+font-size: 8px;
+color: #8B4500;
+text-align: left;
+font-style: italics;
+}
+#p {
+margin-left: 10px;
+}
+
+/*style for hyperlinks*/
+a {
+color: #FFF;
+font-style: Italic;
+text-decoration: bold;
+font-family: Verdana, Calibri;
+}
+a:hover {
+color: #e40000;
+font-family: Verdana, Calibri;
+}
+
+
+/* OLD STYLESHEET */
+
+
+/*head plate where the page is meant for*/
+#head_image {
+position: absolute;
+top: 2%;
+left: 2%;
+width: 96%;
+height: 6%;
+font-family: Verdana, Calibri;
+font-size: 20px;
+font-weight: normal;
+color: #383838;
+overflow: auto;
+border: 1px #800000 solid;
+}
+
+/*if necessary. for the addition of a small image*/
+#icon {
+background-position: left top;
+position: absolute;
+width: 16px;
+height: 16px;
+attachment: fixed;
+z-index: -1;
+}
+
+.editprofile {
+font-family:Verdana, Calibri;
+font-size:12px;
+}
+
+.smaller {
+font-family:Verdana, Calibri;
+font-size:11px;
+}
+
+.showprofile {
+font-family:Verdana, Calibri;
+font-size:12px;
+width: 660px;
+border: 0px;
+}
+
+#profilename {
+font-family:Verdana, Calibri;
+font-size:30px;
+font-weight:bold;
+color:#e40000;
+}
+
+#profilesubtitle {
+font-family:Verdana, Calibri;
+font-size:12px;
+color:#F5CD28;
+}
+
+.profilecolumn {
+font-family:Verdana, Calibri;
+font-size:12px;
+color:#9E9E9E;
+}
+
+.profilecolumnheader {
+height: 20px;
+background-color:#e40000;
+border: 0px;
+}
+
+#headertext {
+font-family:Verdana, Calibri;
+font-size:12px;
+color:#ffffff;
+text-align: left;
+margin-left: 2px;
+}
